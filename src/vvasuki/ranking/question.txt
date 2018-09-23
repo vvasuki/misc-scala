@@ -1,0 +1,18 @@
+Problem:
+
+There are four files:
+QueryItemRank.csv - This is a comma-separated file containing
+QueryID, URLID, DisplayedRank, Impressions, Clicks
+
+RankAvgCtr.csv - This is a comma-separated file containing
+Rank, clicksPerImpression
+
+Popularity.csv - This is a comma-separated file containing a number between 0 to 100 indicating the popularity of URLID
+
+Test.csv - This is a comma-separated file containing  QueryID, followed by 10 URLIDs.
+
+Your goal is to write an algorithm that ranks URLIDs for each QueryID from test.csv file.
+
+Your solution should contain: An output csv file containing a (QueryID, URLID, score) row for each line in Test.csv.
+
+Runnable code that produces this output.
